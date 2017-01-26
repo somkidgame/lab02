@@ -1,8 +1,8 @@
 body {
     padding-left: 11em;
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: purple;
-    background-color: #44FF22
+    color: red;
+    background-color: #ffd700
 }
 
 ul.navbar {
@@ -20,10 +20,10 @@ h1 {
 }
 
 ul.navbar li {
-    background: white;
+    background: whitesmoke;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid darkorange
+    border-right: 1em solid gray
 }
 
 ul.navbar a {
@@ -31,9 +31,16 @@ ul.navbar a {
 }
 
 a:link {
-    color: blue
+    color: red
 }
 
 a:visited {
-    color: deepskyblue
+    color: indigo
+}
+
+div.w3-top,
+.w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
