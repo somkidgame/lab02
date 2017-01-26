@@ -2,7 +2,7 @@ body {
     padding-left: 11em;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: purple;
-    background-color: #000000
+    background-color: #44FF22
 }
 
 ul.navbar {
@@ -23,7 +23,7 @@ ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid blue
+    border-right: 1em solid darkred
 }
 
 ul.navbar a {
