@@ -1,6 +1,4 @@
         body {
-            padding-left: 11em;
-            font-family: Georgia, "Times New Roman", Times, serif;
             color: goldenrod;
             background-color: papayawhip;
         }
@@ -9,28 +7,24 @@
             list-style-type: none;
             padding: 0;
             margin: 0;
-            position: absolute;
             top: 2em;
             left: 1em;
-            width: 9em
+            width: 9em;
+            overflow: hidden;
+            background-color: #333;
         }
         
-        h1 {
-            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
-        }
-        
-        p {
-            font-family: "Comic Sans MS", cursive, sans-serif;
-        }
-        
-        ul.navbar li {
+        .navbar li {
             background: whitesmoke;
             margin: 0.5em 0;
             padding: 0.3em;
             border-right: 1em solid gray
         }
         
-        ul.navbar a {
+        .navbar li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
         }
         
@@ -42,24 +36,29 @@
             color: indigo
         }
         
-        table {
-            border: 1;
-            width: 1000px;
-            align-content: center;
+        h1 {
+            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
         }
         
-        th,
-        td,
-        tbody {
+        p {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+        table {
+            border: 1;
+            border-color: blue;
+            width: 100%;
+            height: auto;
             align-content: center;
-            padding: 0px;
-            color: goldenrod;
             text-align: center;
         }
         
-        .container {
-            position: relative;
-            width: 40%;
+        th,
+        td {
+            align-content: center;
+            padding: 5px;
+            color: goldenrod;
+            text-align: center;
         }
         
         .image {
@@ -73,7 +72,7 @@
             border: thick;
             margin: 1em;
             padding: 1em;
-            background: whitesmoke;
+            background: saddlebrown;
         }
         
         .figure p {
