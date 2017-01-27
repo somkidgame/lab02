@@ -1,46 +1,83 @@
-body {
-    padding-left: 11em;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: red;
-    background-color: #ffd700
-}
-
-ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 9em
-}
-
-h1 {
-    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
-}
-
-ul.navbar li {
-    background: whitesmoke;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid gray
-}
-
-ul.navbar a {
-    text-decoration: none
-}
-
-a:link {
-    color: red
-}
-
-a:visited {
-    color: indigo
-}
-
-div.w3-top,
-.w3-bottom {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
+        body {
+            padding-left: 11em;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: goldenrod;
+            background-color: papayawhip;
+        }
+        
+        ul.navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 2em;
+            left: 1em;
+            width: 9em
+        }
+        
+        h1 {
+            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
+        }
+        
+        p {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+        ul.navbar li {
+            background: whitesmoke;
+            margin: 0.5em 0;
+            padding: 0.3em;
+            border-right: 1em solid gray
+        }
+        
+        ul.navbar a {
+            text-decoration: none;
+        }
+        
+        a:link {
+            color: red
+        }
+        
+        a:visited {
+            color: indigo
+        }
+        
+        table {
+            border: 1;
+            width: 1000px;
+            align-content: center;
+        }
+        
+        th,
+        td,
+        tbody {
+            align-content: center;
+            padding: 0px;
+            color: goldenrod;
+            text-align: center;
+        }
+        
+        .container {
+            position: relative;
+            width: 40%;
+        }
+        
+        .image {
+            width: 30cm;
+            height: 15cm;
+            overflow: hidden;
+        }
+        
+        .figure {
+            width: 15cm;
+            border: thick;
+            margin: 1em;
+            padding: 1em;
+            background: whitesmoke;
+        }
+        
+        .figure p {
+            text-align: center;
+            font-style: italic;
+            font-size: larger;
+        }
