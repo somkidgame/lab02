@@ -1,82 +1,129 @@
-        body {
-            color: goldenrod;
-            background-color: papayawhip;
-        }
-        
-        ul.navbar {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            top: 2em;
-            left: 1em;
-            width: 9em;
-            overflow: hidden;
-            background-color: #333;
-        }
-        
-        .navbar li {
-            background: whitesmoke;
-            margin: 0.5em 0;
-            padding: 0.3em;
-            border-right: 1em solid gray
-        }
-        
-        .navbar li a {
-            display: block;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        
-        a:link {
-            color: red
-        }
-        
-        a:visited {
-            color: indigo
-        }
-        
-        h1 {
-            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
-        }
-        
-        p {
-            font-family: "Comic Sans MS", cursive, sans-serif;
-        }
-        
-        table {
-            border: 1;
-            border-color: blue;
-            width: 100%;
-            height: auto;
-            align-content: center;
-            text-align: center;
-        }
-        
-        th,
-        td {
-            align-content: center;
-            padding: 5px;
-            color: goldenrod;
-            text-align: center;
-        }
-        
-        .image {
-            width: 30cm;
-            height: 15cm;
-            overflow: hidden;
-        }
-        
-        .figure {
-            width: 15cm;
-            border: thick;
-            margin: 1em;
-            padding: 1em;
-            background: saddlebrown;
-        }
-        
-        .figure p {
-            text-align: center;
-            font-style: italic;
-            font-size: larger;
-        }
+            body {
+                align-content: center;
+                color: goldenrod;
+                background-image: url("bg1.jpg");
+                text-align-last: center;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: saddlebrown;
+            }
+            
+            li {
+                float: right;
+            }
+            
+            li a {
+                align-content: center;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            a:link {
+                color: red
+            }
+            
+            a:visited {
+                color: yellow
+            }
+            
+            a:hover {
+                color: blue;
+            } //เมื่อนำเมาส์ไปอยู่ตรงลิงค์โดยที่ยังไม่ได้กด ลิงค์นั้นก็จะเป็นสีแดง
+            a:active {
+                color: white;
+            } //เมื่อคุณกำลังกดลิงค์ตัวนั้นอยู่ ลิงค์นั้นก็จะเป็นสีแดง
+            h1 {
+                font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
+            }
+            
+            p {
+                font-family: "Comic Sans MS", cursive, sans-serif;
+            }
+            
+            div.transbox {
+                width: 400px;
+                height: 180px;
+                margin: 30px 50px;
+                background-color: #ffffff;
+                border: 1px solid black;
+                /* for IE */
+                filter: alpha(opacity=60);
+                /* CSS3 standard */
+                opacity: 0.6;
+            }
+            
+            div.transbox image p {
+                margin: 30px 40px;
+                font-weight: bold;
+                color: #000000;
+            }
+            
+            table,
+            Table {
+                border: 1;
+                width: auto;
+                height: auto;
+                align-content: center;
+                text-align: center;
+            }
+            
+            tr {
+                background: lightblue;
+            }
+            
+            th {
+                background: greenyellow;
+            }
+            
+            th,
+            td {
+                align-content: center;
+                padding: 5px;
+                color: goldenrod;
+                text-align: center;
+            }
+            
+            .image {
+                align-content: center;
+                width: 20cm;
+                height: 10cm;
+                overflow: hidden;
+            }
+            
+            .circle {
+                /* ชื่อคลาสต้องตรงกับ <img class="circle"... */
+                height: 10cm;
+                ;
+                /* ความสูงปรับให้เป็นออโต้ */
+                width: 20cm;
+                /* ความสูงปรับให้เป็นออโต้ */
+                border: 3px solid #fff;
+                /* เส้นขอบขนาด 3px solid: เส้น #fff:โค้ดสีขาว */
+                border-radius: 50%;
+                /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                /* เงาของรูป */
+            }
+            
+            .figure {
+                align-content: center;
+                width: 10cm;
+                border: thick;
+                margin: 1em;
+                padding: 1em;
+                background: saddlebrown;
+            }
+            
+            .figure p {
+                text-align: center;
+                font-style: italic;
+                font-size: larger;
+            }
